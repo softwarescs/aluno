@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="scs.appaluno.ConsultarActivity">
+
+    <TextView
+        android:id="@+id/txvCurso"
+        android:text="@string/lblCurso"
+        style="@style/Font" />
+
+    <Spinner
+        android:id="@+id/sprCurso"
+        style="@style/Spinner" />
+
+    <TextView
+        android:id="@+id/txvPeriodo"
+        android:text="@string/lblPeriodo"
+        style="@style/Font" />
+
+    <Spinner
+        android:id="@+id/sprPeriodo"
+        style="@style/Spinner" />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:text="@string/btnConsultar"
+        style="@style/Button" />
+
+</LinearLayout>

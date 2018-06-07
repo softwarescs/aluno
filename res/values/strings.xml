@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SCS /AppAluno</string>
+
+    <string name="lblCurso">Curso:</string>
+
+    <string name="lblPeriodo">Período:</string>
+    <string-array name="sprPeriodo">
+        <item>Manhã</item>
+        <item>Noite</item>
+        <item>Integral</item>
+    </string-array>
+
+    <string name="btnConsultar">Consultar</string>
+</resources>
